@@ -1,0 +1,232 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "name": "",
+    "desc": ""
+  },
+  "nodes": [
+    {
+      "id": "AD1",
+      "type": "switch",
+      "x": 200,
+      "y": 82,
+      "vnid": "1"
+    },
+    {
+      "id": "AD2",
+      "type": "switch",
+      "x": 459,
+      "y": 74,
+      "vnid": "2"
+    },
+    {
+      "id": "AD3",
+      "type": "switch",
+      "x": 336,
+      "y": 168,
+      "vnid": "3"
+    },
+    {
+      "id": "AD4",
+      "type": "switch",
+      "x": 621,
+      "y": 163,
+      "vnid": "1"
+    },
+    {
+      "id": "H1",
+      "type": "host",
+      "x": 117,
+      "y": 33,
+      "vnid": "1",
+      "ipv4": "134.154.67.203",
+      "mac": "BC:A8:A6:81:3C:46"
+    },
+    {
+      "id": "H2",
+      "type": "host",
+      "x": 162,
+      "y": 92,
+      "vnid": "2",
+      "ipv4": "134.154.67.204",
+      "mac": "BC:A8:A6:81:3C:47"
+    },
+    {
+      "id": "H3",
+      "type": "host",
+      "x": 258,
+      "y": 168,
+      "vnid": "3",
+      "ipv4": "134.154.67.205",
+      "mac": "BC:A8:A6:81:3C:48"
+    },
+    {
+      "id": "H4",
+      "type": "host",
+      "x": 352,
+      "y": 229,
+      "vnid": "1",
+      "ipv4": "134.154.67.206",
+      "mac": "BC:A8:A6:81:3C:49"
+    },
+    {
+      "id": "H5",
+      "type": "host",
+      "x": 469,
+      "y": 15,
+      "vnid": "2",
+      "ipv4": "134.154.67.207",
+      "mac": "BC:A8:A6:81:3C:4A"
+    },
+    {
+      "id": "H6",
+      "type": "host",
+      "x": 386,
+      "y": 13,
+      "vnid": "3",
+      "ipv4": "134.154.67.208",
+      "mac": "BC:A8:A6:81:3C:4B"
+    },
+    {
+      "id": "H7",
+      "type": "host",
+      "x": 654,
+      "y": 138,
+      "vnid": "1",
+      "ipv4": "134.154.67.209",
+      "mac": "BC:A8:A6:81:3C:4C"
+    },
+    {
+      "id": "H8",
+      "type": "host",
+      "x": 667,
+      "y": 185,
+      "vnid": "2",
+      "ipv4": "134.154.67.210",
+      "mac": "BC:A8:A6:81:3C:4D"
+    }
+  ],
+  "links": [
+    {
+      "source": "H1",
+      "target": "AD1",
+      "weight": 8,
+      "capacity": 66.488,
+      "ports": {
+        "H1": 1,
+        "AD1": 1
+      }
+    },
+    {
+      "source": "H2",
+      "target": "AD1",
+      "weight": 8,
+      "capacity": 56.99,
+      "ports": {
+        "H2": 1,
+        "AD1": 2
+      }
+    },
+    {
+      "source": "H3",
+      "target": "AD3",
+      "weight": 8,
+      "capacity": 60.128,
+      "ports": {
+        "H3": 1,
+        "AD3": 1
+      }
+    },
+    {
+      "source": "AD3",
+      "target": "H4",
+      "weight": 8,
+      "capacity": 79.063,
+      "ports": {
+        "AD3": 2,
+        "H4": 1
+      }
+    },
+    {
+      "source": "H7",
+      "target": "AD4",
+      "weight": 8,
+      "capacity": 34.238,
+      "ports": {
+        "H7": 1,
+        "AD4": 1
+      }
+    },
+    {
+      "source": "H8",
+      "target": "AD4",
+      "weight": 8,
+      "capacity": 98.083,
+      "ports": {
+        "H8": 1,
+        "AD4": 2
+      }
+    },
+    {
+      "source": "H5",
+      "target": "AD2",
+      "weight": 8,
+      "capacity": 58.186,
+      "ports": {
+        "H5": 1,
+        "AD2": 1
+      }
+    },
+    {
+      "source": "H6",
+      "target": "AD2",
+      "weight": 8,
+      "capacity": 72.948,
+      "ports": {
+        "H6": 1,
+        "AD2": 2
+      }
+    },
+    {
+      "source": "AD1",
+      "target": "AD2",
+      "weight": 8,
+      "capacity": 15.468,
+      "ports": {
+        "AD1": 3,
+        "AD2": 3
+      }
+    },
+    {
+      "source": "AD1",
+      "target": "AD3",
+      "weight": 8,
+      "capacity": 76.661,
+      "ports": {
+        "AD1": 4,
+        "AD3": 3
+      }
+    },
+    {
+      "source": "AD3",
+      "target": "AD4",
+      "weight": 8,
+      "capacity": 55.736,
+      "ports": {
+        "AD3": 4,
+        "AD4": 3
+      }
+    },
+    {
+      "source": "AD2",
+      "target": "AD4",
+      "weight": 8,
+      "capacity": 44.556,
+      "ports": {
+        "AD2": 4,
+        "AD4": 4
+      }
+    }
+  ]
+}

@@ -1,0 +1,714 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "name": "",
+    "desc": ""
+  },
+  "nodes": [
+    {
+      "id": "AD1",
+      "type": "switch",
+      "x": 355,
+      "y": 113
+    },
+    {
+      "id": "AD2",
+      "type": "switch",
+      "x": 467,
+      "y": 52
+    },
+    {
+      "id": "AD3",
+      "type": "switch",
+      "x": 599,
+      "y": 48
+    },
+    {
+      "id": "AD4",
+      "type": "switch",
+      "x": 785,
+      "y": 50
+    },
+    {
+      "id": "AD5",
+      "type": "switch",
+      "x": 520,
+      "y": 164
+    },
+    {
+      "id": "AD6",
+      "type": "switch",
+      "x": 689,
+      "y": 149
+    },
+    {
+      "id": "AD7",
+      "type": "switch",
+      "x": 446,
+      "y": 244
+    },
+    {
+      "id": "AD8",
+      "type": "switch",
+      "x": 623,
+      "y": 284
+    },
+    {
+      "id": "AD9",
+      "type": "switch",
+      "x": 837,
+      "y": 244
+    },
+    {
+      "id": "AD10",
+      "type": "switch",
+      "x": 725,
+      "y": 238
+    },
+    {
+      "id": "AD11",
+      "type": "switch",
+      "x": 602,
+      "y": 189
+    },
+    {
+      "id": "AD12",
+      "type": "switch",
+      "x": 427,
+      "y": 148
+    },
+    {
+      "id": "AD13",
+      "type": "switch",
+      "x": 531,
+      "y": 271
+    },
+    {
+      "id": "AD14",
+      "type": "switch",
+      "x": 832,
+      "y": 125
+    },
+    {
+      "id": "AD15",
+      "type": "switch",
+      "x": 613,
+      "y": 106
+    },
+    {
+      "id": "AD16",
+      "type": "switch",
+      "x": 785,
+      "y": 185
+    },
+    {
+      "id": "AD17",
+      "type": "switch",
+      "x": 923,
+      "y": 172
+    },
+    {
+      "id": "NP1",
+      "type": "host",
+      "x": 321,
+      "y": 105,
+      "ipv4": "134.154.68.220",
+      "mac": "BC:A8:A6:81:3C:46"
+    },
+    {
+      "id": "NP2",
+      "type": "host",
+      "x": 366,
+      "y": 205,
+      "ipv4": "134.154.68.221",
+      "mac": "BC:A8:A6:81:3C:47"
+    },
+    {
+      "id": "NP3",
+      "type": "host",
+      "x": 437,
+      "y": 283,
+      "ipv4": "134.154.68.222",
+      "mac": "BC:A8:A6:81:3C:48"
+    },
+    {
+      "id": "NP4",
+      "type": "host",
+      "x": 529,
+      "y": 345,
+      "ipv4": "134.154.68.223",
+      "mac": "BC:A8:A6:81:3C:49"
+    },
+    {
+      "id": "NP5",
+      "type": "host",
+      "x": 656,
+      "y": 342,
+      "ipv4": "134.154.68.224",
+      "mac": "BC:A8:A6:81:3C:4A"
+    },
+    {
+      "id": "NP6",
+      "type": "host",
+      "x": 851,
+      "y": 282,
+      "ipv4": "134.154.68.225",
+      "mac": "BC:A8:A6:81:3C:4B"
+    },
+    {
+      "id": "NP7",
+      "type": "host",
+      "x": 953,
+      "y": 151,
+      "ipv4": "134.154.68.226",
+      "mac": "BC:A8:A6:81:3C:4C"
+    },
+    {
+      "id": "NP8",
+      "type": "host",
+      "x": 794,
+      "y": 26,
+      "ipv4": "134.154.68.227",
+      "mac": "BC:A8:A6:81:3C:4D"
+    },
+    {
+      "id": "NP9",
+      "type": "host",
+      "x": 603,
+      "y": 22,
+      "ipv4": "134.154.68.228",
+      "mac": "BC:A8:A6:81:3C:4E"
+    },
+    {
+      "id": "NP10",
+      "type": "host",
+      "x": 456,
+      "y": 25,
+      "ipv4": "134.154.68.229",
+      "mac": "BC:A8:A6:81:3C:4F"
+    }
+  ],
+  "links": [
+    {
+      "source": "AD1",
+      "target": "AD12",
+      "weight": 105.4,
+      "capacity": 75.797,
+      "ports": {
+        "AD1": 1,
+        "AD12": 1
+      }
+    },
+    {
+      "source": "AD2",
+      "target": "AD1",
+      "weight": 188.1,
+      "capacity": 37.649,
+      "ports": {
+        "AD2": 1,
+        "AD1": 2
+      }
+    },
+    {
+      "source": "AD2",
+      "target": "AD5",
+      "weight": 170.44,
+      "capacity": 88.426,
+      "ports": {
+        "AD2": 2,
+        "AD5": 1
+      }
+    },
+    {
+      "source": "AD5",
+      "target": "AD11",
+      "weight": 128.2,
+      "capacity": 75.558,
+      "ports": {
+        "AD5": 2,
+        "AD11": 1
+      }
+    },
+    {
+      "source": "AD11",
+      "target": "AD10",
+      "weight": 199.16,
+      "capacity": 31.451,
+      "ports": {
+        "AD11": 2,
+        "AD10": 1
+      }
+    },
+    {
+      "source": "AD10",
+      "target": "AD16",
+      "weight": 120.51,
+      "capacity": 60.301,
+      "ports": {
+        "AD10": 2,
+        "AD16": 1
+      }
+    },
+    {
+      "source": "AD16",
+      "target": "AD14",
+      "weight": 113.86,
+      "capacity": 87.949,
+      "ports": {
+        "AD16": 2,
+        "AD14": 1
+      }
+    },
+    {
+      "source": "AD14",
+      "target": "AD17",
+      "weight": 144.08,
+      "capacity": 96.799,
+      "ports": {
+        "AD14": 2,
+        "AD17": 1
+      }
+    },
+    {
+      "source": "AD17",
+      "target": "AD4",
+      "weight": 268.11,
+      "capacity": 26.177,
+      "ports": {
+        "AD17": 2,
+        "AD4": 1
+      }
+    },
+    {
+      "source": "AD4",
+      "target": "AD6",
+      "weight": 191.47,
+      "capacity": 86.159,
+      "ports": {
+        "AD4": 2,
+        "AD6": 1
+      }
+    },
+    {
+      "source": "AD6",
+      "target": "AD8",
+      "weight": 227.1,
+      "capacity": 66.456,
+      "ports": {
+        "AD6": 2,
+        "AD8": 1
+      }
+    },
+    {
+      "source": "AD8",
+      "target": "AD15",
+      "weight": 274.05,
+      "capacity": 19.921,
+      "ports": {
+        "AD8": 2,
+        "AD15": 1
+      }
+    },
+    {
+      "source": "AD15",
+      "target": "AD3",
+      "weight": 77.798,
+      "capacity": 56.73,
+      "ports": {
+        "AD15": 2,
+        "AD3": 1
+      }
+    },
+    {
+      "source": "AD3",
+      "target": "AD5",
+      "weight": 196.28,
+      "capacity": 90.58,
+      "ports": {
+        "AD3": 2,
+        "AD5": 3
+      }
+    },
+    {
+      "source": "AD5",
+      "target": "AD12",
+      "weight": 144.89,
+      "capacity": 67.394,
+      "ports": {
+        "AD5": 4,
+        "AD12": 2
+      }
+    },
+    {
+      "source": "AD12",
+      "target": "AD7",
+      "weight": 137.09,
+      "capacity": 22.594,
+      "ports": {
+        "AD12": 3,
+        "AD7": 1
+      }
+    },
+    {
+      "source": "AD7",
+      "target": "AD2",
+      "weight": 268.21,
+      "capacity": 86.862,
+      "ports": {
+        "AD7": 2,
+        "AD2": 3
+      }
+    },
+    {
+      "source": "AD2",
+      "target": "AD13",
+      "weight": 349.04,
+      "capacity": 33.095,
+      "ports": {
+        "AD2": 4,
+        "AD13": 1
+      }
+    },
+    {
+      "source": "AD13",
+      "target": "AD15",
+      "weight": 296.08,
+      "capacity": 52.253,
+      "ports": {
+        "AD13": 2,
+        "AD15": 3
+      }
+    },
+    {
+      "source": "AD15",
+      "target": "AD6",
+      "weight": 130.98,
+      "capacity": 62.769,
+      "ports": {
+        "AD15": 4,
+        "AD6": 3
+      }
+    },
+    {
+      "source": "AD6",
+      "target": "AD10",
+      "weight": 144.01,
+      "capacity": 11.757,
+      "ports": {
+        "AD6": 4,
+        "AD10": 3
+      }
+    },
+    {
+      "source": "AD10",
+      "target": "AD9",
+      "weight": 156.03,
+      "capacity": 95.104,
+      "ports": {
+        "AD10": 4,
+        "AD9": 1
+      }
+    },
+    {
+      "source": "AD4",
+      "target": "AD9",
+      "weight": 278.22,
+      "capacity": 10.352,
+      "ports": {
+        "AD4": 3,
+        "AD9": 2
+      }
+    },
+    {
+      "source": "AD9",
+      "target": "AD17",
+      "weight": 163.32,
+      "capacity": 36.295,
+      "ports": {
+        "AD9": 3,
+        "AD17": 3
+      }
+    },
+    {
+      "source": "AD17",
+      "target": "AD10",
+      "weight": 304.1,
+      "capacity": 35.185,
+      "ports": {
+        "AD17": 4,
+        "AD10": 5
+      }
+    },
+    {
+      "source": "AD10",
+      "target": "AD13",
+      "weight": 298.32,
+      "capacity": 19.005,
+      "ports": {
+        "AD10": 6,
+        "AD13": 3
+      }
+    },
+    {
+      "source": "AD13",
+      "target": "AD12",
+      "weight": 256.99,
+      "capacity": 61.872,
+      "ports": {
+        "AD13": 4,
+        "AD12": 4
+      }
+    },
+    {
+      "source": "AD8",
+      "target": "AD5",
+      "weight": 248.16,
+      "capacity": 92.289,
+      "ports": {
+        "AD8": 3,
+        "AD5": 5
+      }
+    },
+    {
+      "source": "AD8",
+      "target": "AD4",
+      "weight": 411.65,
+      "capacity": 66.513,
+      "ports": {
+        "AD8": 4,
+        "AD4": 4
+      }
+    },
+    {
+      "source": "AD9",
+      "target": "AD16",
+      "weight": 101.31,
+      "capacity": 71.537,
+      "ports": {
+        "AD9": 4,
+        "AD16": 3
+      }
+    },
+    {
+      "source": "AD16",
+      "target": "AD1",
+      "weight": 644.11,
+      "capacity": 27.303,
+      "ports": {
+        "AD16": 4,
+        "AD1": 3
+      }
+    },
+    {
+      "source": "AD2",
+      "target": "AD3",
+      "weight": 190.65,
+      "capacity": 26.318,
+      "ports": {
+        "AD2": 5,
+        "AD3": 3
+      }
+    },
+    {
+      "source": "AD3",
+      "target": "AD4",
+      "weight": 273.2,
+      "capacity": 24.977,
+      "ports": {
+        "AD3": 4,
+        "AD4": 5
+      }
+    },
+    {
+      "source": "AD3",
+      "target": "AD16",
+      "weight": 342.25,
+      "capacity": 74.242,
+      "ports": {
+        "AD3": 5,
+        "AD16": 5
+      }
+    },
+    {
+      "source": "AD8",
+      "target": "AD9",
+      "weight": 309.97,
+      "capacity": 41.707,
+      "ports": {
+        "AD8": 5,
+        "AD9": 5
+      }
+    },
+    {
+      "source": "AD9",
+      "target": "AD7",
+      "weight": 565.53,
+      "capacity": 46.099,
+      "ports": {
+        "AD9": 6,
+        "AD7": 3
+      }
+    },
+    {
+      "source": "AD13",
+      "target": "AD8",
+      "weight": 145.53,
+      "capacity": 93.212,
+      "ports": {
+        "AD13": 5,
+        "AD8": 6
+      }
+    },
+    {
+      "source": "AD13",
+      "target": "AD7",
+      "weight": 138.42,
+      "capacity": 41.134,
+      "ports": {
+        "AD13": 6,
+        "AD7": 4
+      }
+    },
+    {
+      "source": "AD5",
+      "target": "AD13",
+      "weight": 184.58,
+      "capacity": 97.603,
+      "ports": {
+        "AD5": 6,
+        "AD13": 7
+      }
+    },
+    {
+      "source": "AD13",
+      "target": "AD11",
+      "weight": 179.08,
+      "capacity": 32.164,
+      "ports": {
+        "AD13": 8,
+        "AD11": 3
+      }
+    },
+    {
+      "source": "AD11",
+      "target": "AD6",
+      "weight": 144.18,
+      "capacity": 82.65,
+      "ports": {
+        "AD11": 4,
+        "AD6": 5
+      }
+    },
+    {
+      "source": "AD15",
+      "target": "AD4",
+      "weight": 258.11,
+      "capacity": 89.053,
+      "ports": {
+        "AD15": 5,
+        "AD4": 6
+      }
+    },
+    {
+      "source": "NP1",
+      "target": "AD1",
+      "weight": 10,
+      "capacity": 82.584,
+      "ports": {
+        "NP1": 1,
+        "AD1": 4
+      }
+    },
+    {
+      "source": "NP2",
+      "target": "AD12",
+      "weight": 10,
+      "capacity": 38.045,
+      "ports": {
+        "NP2": 1,
+        "AD12": 5
+      }
+    },
+    {
+      "source": "NP3",
+      "target": "AD7",
+      "weight": 10,
+      "capacity": 67.788,
+      "ports": {
+        "NP3": 1,
+        "AD7": 5
+      }
+    },
+    {
+      "source": "AD13",
+      "target": "NP4",
+      "weight": 10,
+      "capacity": 97.69,
+      "ports": {
+        "AD13": 9,
+        "NP4": 1
+      }
+    },
+    {
+      "source": "AD8",
+      "target": "NP5",
+      "weight": 10,
+      "capacity": 43.049,
+      "ports": {
+        "AD8": 7,
+        "NP5": 1
+      }
+    },
+    {
+      "source": "AD9",
+      "target": "NP6",
+      "weight": 10,
+      "capacity": 88.872,
+      "ports": {
+        "AD9": 7,
+        "NP6": 1
+      }
+    },
+    {
+      "source": "AD17",
+      "target": "NP7",
+      "weight": 10,
+      "capacity": 33.232,
+      "ports": {
+        "AD17": 5,
+        "NP7": 1
+      }
+    },
+    {
+      "source": "NP8",
+      "target": "AD4",
+      "weight": 10,
+      "capacity": 46.73,
+      "ports": {
+        "NP8": 1,
+        "AD4": 7
+      }
+    },
+    {
+      "source": "NP9",
+      "target": "AD3",
+      "weight": 10,
+      "capacity": 22.004,
+      "ports": {
+        "NP9": 1,
+        "AD3": 6
+      }
+    },
+    {
+      "source": "NP10",
+      "target": "AD2",
+      "weight": 10,
+      "capacity": 64.907,
+      "ports": {
+        "NP10": 1,
+        "AD2": 6
+      }
+    }
+  ]
+}

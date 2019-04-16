@@ -1,0 +1,498 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "name": "HW2Prob3Ex",
+    "desc": "Dr B's example for homework 2, problem 3."
+  },
+  "nodes": [
+    {
+      "id": "B9",
+      "y": 282,
+      "x": 323
+    },
+    {
+      "id": "A17",
+      "y": 128,
+      "x": 226
+    },
+    {
+      "id": "B3",
+      "y": 336,
+      "x": 290
+    },
+    {
+      "id": "C12",
+      "y": 123,
+      "x": 624
+    },
+    {
+      "id": "E20",
+      "y": 522,
+      "x": 88
+    },
+    {
+      "id": "D6",
+      "y": 377,
+      "x": 531
+    },
+    {
+      "id": "B22",
+      "y": 113,
+      "x": 440
+    },
+    {
+      "id": "D30",
+      "y": 583,
+      "x": 408
+    },
+    {
+      "id": "B16",
+      "y": 231,
+      "x": 381
+    },
+    {
+      "id": "D20",
+      "y": 512,
+      "x": 361
+    },
+    {
+      "id": "B28",
+      "y": 47,
+      "x": 368
+    },
+    {
+      "id": "A28",
+      "y": 205,
+      "x": 237
+    },
+    {
+      "id": "E5",
+      "y": 358,
+      "x": 164
+    },
+    {
+      "id": "C17",
+      "y": 181,
+      "x": 505
+    },
+    {
+      "id": "D14",
+      "y": 456,
+      "x": 526
+    },
+    {
+      "id": "E17",
+      "y": 486,
+      "x": 209
+    },
+    {
+      "id": "C29",
+      "y": 321,
+      "x": 583
+    },
+    {
+      "id": "E8",
+      "y": 412,
+      "x": 64
+    },
+    {
+      "id": "A23",
+      "y": 252,
+      "x": 128
+    },
+    {
+      "id": "E28",
+      "y": 614,
+      "x": 178
+    },
+    {
+      "id": "E15",
+      "y": 409,
+      "x": 318
+    },
+    {
+      "id": "A4",
+      "y": 79,
+      "x": 70
+    },
+    {
+      "id": "D16",
+      "y": 480,
+      "x": 440
+    },
+    {
+      "id": "D4",
+      "y": 376,
+      "x": 442
+    },
+    {
+      "id": "A14",
+      "y": 41,
+      "x": 162
+    },
+    {
+      "id": "A9",
+      "y": 153,
+      "x": 76
+    },
+    {
+      "id": "C8",
+      "y": 196,
+      "x": 617
+    },
+    {
+      "id": "B4",
+      "y": 287,
+      "x": 249
+    },
+    {
+      "id": "C6",
+      "y": 194,
+      "x": 691
+    },
+    {
+      "id": "C24",
+      "y": 308,
+      "x": 492
+    }
+  ],
+  "links": [
+    {
+      "weight": 102,
+      "source": "A28",
+      "target": "B16",
+      "capacity": 36.911
+    },
+    {
+      "weight": 224,
+      "source": "E28",
+      "target": "D30",
+      "capacity": 90.818
+    },
+    {
+      "weight": 142,
+      "source": "D4",
+      "target": "D6",
+      "capacity": 68.342
+    },
+    {
+      "weight": 110,
+      "source": "B3",
+      "target": "E5",
+      "capacity": 144.27
+    },
+    {
+      "weight": 81,
+      "source": "C24",
+      "target": "D6",
+      "capacity": 149.24
+    },
+    {
+      "weight": 133,
+      "source": "C8",
+      "target": "C29",
+      "capacity": 30.149
+    },
+    {
+      "weight": 197,
+      "source": "E17",
+      "target": "E8",
+      "capacity": 118.04
+    },
+    {
+      "weight": 142,
+      "source": "A4",
+      "target": "A9",
+      "capacity": 25.732
+    },
+    {
+      "weight": 156,
+      "source": "D4",
+      "target": "E15",
+      "capacity": 33.29
+    },
+    {
+      "weight": 176,
+      "source": "A4",
+      "target": "A17",
+      "capacity": 144.85
+    },
+    {
+      "weight": 133,
+      "source": "C12",
+      "target": "C17",
+      "capacity": 76.554
+    },
+    {
+      "weight": 101,
+      "source": "B28",
+      "target": "B22",
+      "capacity": 175.62
+    },
+    {
+      "weight": 119,
+      "source": "D14",
+      "target": "D16",
+      "capacity": 189
+    },
+    {
+      "weight": 130,
+      "source": "D16",
+      "target": "D20",
+      "capacity": 31.278
+    },
+    {
+      "weight": 156,
+      "source": "E15",
+      "target": "E5",
+      "capacity": 177.5
+    },
+    {
+      "weight": 138,
+      "source": "D4",
+      "target": "B3",
+      "capacity": 87.891
+    },
+    {
+      "weight": 142,
+      "source": "C17",
+      "target": "B22",
+      "capacity": 134.26
+    },
+    {
+      "weight": 89,
+      "source": "B3",
+      "target": "B9",
+      "capacity": 176.27
+    },
+    {
+      "weight": 92,
+      "source": "E15",
+      "target": "D20",
+      "capacity": 75.787
+    },
+    {
+      "weight": 52,
+      "source": "B4",
+      "target": "B3",
+      "capacity": 151.41
+    },
+    {
+      "weight": 145,
+      "source": "C12",
+      "target": "C8",
+      "capacity": 186.26
+    },
+    {
+      "weight": 99,
+      "source": "B9",
+      "target": "B4",
+      "capacity": 74.478
+    },
+    {
+      "weight": 154,
+      "source": "B22",
+      "target": "C12",
+      "capacity": 128.26
+    },
+    {
+      "weight": 214,
+      "source": "C12",
+      "target": "C6",
+      "capacity": 78.053
+    },
+    {
+      "weight": 129,
+      "source": "C24",
+      "target": "D4",
+      "capacity": 163.81
+    },
+    {
+      "weight": 313,
+      "source": "A14",
+      "target": "B28",
+      "capacity": 82.114
+    },
+    {
+      "weight": 141,
+      "source": "D16",
+      "target": "D30",
+      "capacity": 169.54
+    },
+    {
+      "weight": 157,
+      "source": "A23",
+      "target": "A9",
+      "capacity": 160.62
+    },
+    {
+      "weight": 129,
+      "source": "E20",
+      "target": "E28",
+      "capacity": 132.41
+    },
+    {
+      "weight": 137,
+      "source": "D14",
+      "target": "D4",
+      "capacity": 180.98
+    },
+    {
+      "weight": 107,
+      "source": "B9",
+      "target": "B16",
+      "capacity": 196.99
+    },
+    {
+      "weight": 84,
+      "source": "C8",
+      "target": "C6",
+      "capacity": 150.38
+    },
+    {
+      "weight": 223,
+      "source": "E17",
+      "target": "E5",
+      "capacity": 106.81
+    },
+    {
+      "weight": 155,
+      "source": "E8",
+      "target": "E20",
+      "capacity": 64.444
+    },
+    {
+      "weight": 114,
+      "source": "D20",
+      "target": "E17",
+      "capacity": 189.61
+    },
+    {
+      "weight": 125,
+      "source": "E17",
+      "target": "E20",
+      "capacity": 57.696
+    },
+    {
+      "weight": 152,
+      "source": "D30",
+      "target": "D20",
+      "capacity": 36.762
+    },
+    {
+      "weight": 129,
+      "source": "C17",
+      "target": "C29",
+      "capacity": 80.646
+    },
+    {
+      "weight": 152,
+      "source": "A17",
+      "target": "A28",
+      "capacity": 162.07
+    },
+    {
+      "weight": 154,
+      "source": "C29",
+      "target": "D6",
+      "capacity": 46.728
+    },
+    {
+      "weight": 263,
+      "source": "A23",
+      "target": "E8",
+      "capacity": 107.82
+    },
+    {
+      "weight": 140,
+      "source": "C24",
+      "target": "C29",
+      "capacity": 190.78
+    },
+    {
+      "weight": 193,
+      "source": "C6",
+      "target": "C29",
+      "capacity": 13.525
+    },
+    {
+      "weight": 143,
+      "source": "B4",
+      "target": "A23",
+      "capacity": 15.458
+    },
+    {
+      "weight": 114,
+      "source": "B22",
+      "target": "B16",
+      "capacity": 20.419
+    },
+    {
+      "weight": 267,
+      "source": "A9",
+      "target": "A28",
+      "capacity": 59.387
+    },
+    {
+      "weight": 110,
+      "source": "A23",
+      "target": "E5",
+      "capacity": 77.022
+    },
+    {
+      "weight": 156,
+      "source": "E17",
+      "target": "E28",
+      "capacity": 76.183
+    },
+    {
+      "weight": 194,
+      "source": "C24",
+      "target": "B9",
+      "capacity": 91.02
+    },
+    {
+      "weight": 126,
+      "source": "C17",
+      "target": "B16",
+      "capacity": 119.55
+    },
+    {
+      "weight": 111,
+      "source": "B28",
+      "target": "A28",
+      "capacity": 167.47
+    },
+    {
+      "weight": 114,
+      "source": "B9",
+      "target": "A28",
+      "capacity": 59.133
+    },
+    {
+      "weight": 135,
+      "source": "A4",
+      "target": "A14",
+      "capacity": 192.72
+    },
+    {
+      "weight": 102,
+      "source": "D6",
+      "target": "D14",
+      "capacity": 118.11
+    },
+    {
+      "weight": 176,
+      "source": "A14",
+      "target": "A17",
+      "capacity": 93.459
+    },
+    {
+      "weight": 226,
+      "source": "E5",
+      "target": "E8",
+      "capacity": 134.93
+    }
+  ]
+}

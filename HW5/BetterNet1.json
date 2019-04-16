@@ -1,0 +1,500 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "name": "SDNPracticeNet1",
+    "desc": "A network to try Ethernet shortest path bridging on via SDN."
+  },
+  "nodes": [
+    {
+      "id": "S1",
+      "type": "switch",
+      "x": 111,
+      "y": 109
+    },
+    {
+      "id": "S2",
+      "type": "switch",
+      "x": 295,
+      "y": 82
+    },
+    {
+      "id": "S3",
+      "type": "switch",
+      "x": 425,
+      "y": 103
+    },
+    {
+      "id": "S4",
+      "type": "switch",
+      "x": 96,
+      "y": 235
+    },
+    {
+      "id": "S5",
+      "type": "switch",
+      "x": 236,
+      "y": 161
+    },
+    {
+      "id": "S6",
+      "type": "switch",
+      "x": 263,
+      "y": 256
+    },
+    {
+      "id": "S7",
+      "type": "switch",
+      "x": 425,
+      "y": 276
+    },
+    {
+      "id": "S8",
+      "type": "switch",
+      "x": 431,
+      "y": 191
+    },
+    {
+      "id": "S9",
+      "type": "switch",
+      "x": 150,
+      "y": 332
+    },
+    {
+      "id": "S10",
+      "type": "switch",
+      "x": 350,
+      "y": 396
+    },
+    {
+      "id": "H1",
+      "type": "host",
+      "x": 25,
+      "y": 60,
+      "ipv4": "192.168.1.1",
+      "mac": "00:00:10:00:A0:01"
+    },
+    {
+      "id": "H2",
+      "type": "host",
+      "x": 134,
+      "y": 49,
+      "ipv4": "192.168.1.2",
+      "mac": "00:00:10:00:A0:02"
+    },
+    {
+      "id": "H3",
+      "type": "host",
+      "x": 42,
+      "y": 157,
+      "ipv4": "192.168.1.3",
+      "mac": "00:00:10:00:A0:03"
+    },
+    {
+      "id": "H4",
+      "type": "host",
+      "x": 45,
+      "y": 275,
+      "ipv4": "192.168.1.4",
+      "mac": "00:00:10:00:A0:04"
+    },
+    {
+      "id": "H5",
+      "type": "host",
+      "x": 49,
+      "y": 239,
+      "ipv4": "192.168.1.5",
+      "mac": "00:00:10:00:A0:05"
+    },
+    {
+      "id": "H6",
+      "type": "host",
+      "x": 132,
+      "y": 377,
+      "ipv4": "192.168.1.6",
+      "mac": "00:00:10:00:A0:06"
+    },
+    {
+      "id": "H7",
+      "type": "host",
+      "x": 284,
+      "y": 192,
+      "ipv4": "192.168.1.7",
+      "mac": "00:00:10:00:A0:07"
+    },
+    {
+      "id": "H8",
+      "type": "host",
+      "x": 301,
+      "y": 143,
+      "ipv4": "192.168.1.8",
+      "mac": "00:00:10:00:A0:08"
+    },
+    {
+      "id": "H9",
+      "type": "host",
+      "x": 314,
+      "y": 418,
+      "ipv4": "192.168.1.9",
+      "mac": "00:00:10:00:A0:09"
+    },
+    {
+      "id": "H10",
+      "type": "host",
+      "x": 417,
+      "y": 409,
+      "ipv4": "192.168.1.10",
+      "mac": "00:00:10:00:A0:0A"
+    },
+    {
+      "id": "H11",
+      "type": "host",
+      "x": 284,
+      "y": 307,
+      "ipv4": "192.168.1.11",
+      "mac": "00:00:10:00:A0:0B"
+    },
+    {
+      "id": "H12",
+      "type": "host",
+      "x": 465,
+      "y": 313,
+      "ipv4": "192.168.1.12",
+      "mac": "00:00:10:00:A0:0C"
+    },
+    {
+      "id": "H13",
+      "type": "host",
+      "x": 479,
+      "y": 197,
+      "ipv4": "192.168.1.13",
+      "mac": "00:00:10:00:A0:0D"
+    },
+    {
+      "id": "H14",
+      "type": "host",
+      "x": 477,
+      "y": 152,
+      "ipv4": "192.168.1.14",
+      "mac": "00:00:10:00:A0:0E"
+    },
+    {
+      "id": "H15",
+      "type": "host",
+      "x": 459,
+      "y": 67,
+      "ipv4": "192.168.1.15",
+      "mac": "00:00:10:00:A0:0F"
+    },
+    {
+      "id": "H16",
+      "type": "host",
+      "x": 297,
+      "y": 44,
+      "ipv4": "192.168.1.16",
+      "mac": "00:00:10:00:A0:10"
+    }
+  ],
+  "links": [
+    {
+      "source": "S1",
+      "target": "S2",
+      "weight": 185.97,
+      "capacity": 46.615,
+      "ports": {
+        "S1": 1,
+        "S2": 1
+      }
+    },
+    {
+      "source": "S2",
+      "target": "S3",
+      "weight": 131.69,
+      "capacity": 45.912,
+      "ports": {
+        "S2": 2,
+        "S3": 1
+      }
+    },
+    {
+      "source": "S2",
+      "target": "S5",
+      "weight": 98.6,
+      "capacity": 15.473,
+      "ports": {
+        "S2": 3,
+        "S5": 1
+      }
+    },
+    {
+      "source": "S1",
+      "target": "S4",
+      "weight": 126.89,
+      "capacity": 124.56,
+      "ports": {
+        "S1": 2,
+        "S4": 1
+      }
+    },
+    {
+      "source": "S5",
+      "target": "S6",
+      "weight": 98.613,
+      "capacity": 161.78,
+      "ports": {
+        "S5": 2,
+        "S6": 1
+      }
+    },
+    {
+      "source": "S4",
+      "target": "S9",
+      "weight": 111.02,
+      "capacity": 193.99,
+      "ports": {
+        "S4": 2,
+        "S9": 1
+      }
+    },
+    {
+      "source": "S10",
+      "target": "S7",
+      "weight": 141.51,
+      "capacity": 185.92,
+      "ports": {
+        "S10": 1,
+        "S7": 1
+      }
+    },
+    {
+      "source": "S6",
+      "target": "S7",
+      "weight": 163.39,
+      "capacity": 32.316,
+      "ports": {
+        "S6": 2,
+        "S7": 2
+      }
+    },
+    {
+      "source": "S9",
+      "target": "S10",
+      "weight": 209.99,
+      "capacity": 13.521,
+      "ports": {
+        "S9": 2,
+        "S10": 2
+      }
+    },
+    {
+      "source": "S5",
+      "target": "S4",
+      "weight": 158.35,
+      "capacity": 173.58,
+      "ports": {
+        "S5": 3,
+        "S4": 3
+      }
+    },
+    {
+      "source": "S3",
+      "target": "S8",
+      "weight": 88.204,
+      "capacity": 59.818,
+      "ports": {
+        "S3": 2,
+        "S8": 1
+      }
+    },
+    {
+      "source": "S8",
+      "target": "S7",
+      "weight": 85.212,
+      "capacity": 136,
+      "ports": {
+        "S8": 2,
+        "S7": 3
+      }
+    },
+    {
+      "source": "S8",
+      "target": "S6",
+      "weight": 180.24,
+      "capacity": 68.878,
+      "ports": {
+        "S8": 3,
+        "S6": 3
+      }
+    },
+    {
+      "source": "S6",
+      "target": "S9",
+      "weight": 136.12,
+      "capacity": 104.27,
+      "ports": {
+        "S6": 4,
+        "S9": 3
+      }
+    },
+    {
+      "source": "H1",
+      "target": "S1",
+      "weight": 98.98,
+      "capacity": 100,
+      "ports": {
+        "H1": 1,
+        "S1": 3
+      }
+    },
+    {
+      "source": "H2",
+      "target": "S1",
+      "weight": 64.257,
+      "capacity": 100,
+      "ports": {
+        "H2": 1,
+        "S1": 4
+      }
+    },
+    {
+      "source": "H3",
+      "target": "S1",
+      "weight": 84.054,
+      "capacity": 100,
+      "ports": {
+        "H3": 1,
+        "S1": 5
+      }
+    },
+    {
+      "source": "H5",
+      "target": "S4",
+      "weight": 47.17,
+      "capacity": 100,
+      "ports": {
+        "H5": 1,
+        "S4": 4
+      }
+    },
+    {
+      "source": "H4",
+      "target": "S4",
+      "weight": 64.815,
+      "capacity": 100,
+      "ports": {
+        "H4": 1,
+        "S4": 5
+      }
+    },
+    {
+      "source": "H6",
+      "target": "S9",
+      "weight": 48.466,
+      "capacity": 100,
+      "ports": {
+        "H6": 1,
+        "S9": 4
+      }
+    },
+    {
+      "source": "H9",
+      "target": "S10",
+      "weight": 42.19,
+      "capacity": 100,
+      "ports": {
+        "H9": 1,
+        "S10": 3
+      }
+    },
+    {
+      "source": "H10",
+      "target": "S10",
+      "weight": 68.25,
+      "capacity": 100,
+      "ports": {
+        "H10": 1,
+        "S10": 4
+      }
+    },
+    {
+      "source": "H11",
+      "target": "S6",
+      "weight": 55.316,
+      "capacity": 100,
+      "ports": {
+        "H11": 1,
+        "S6": 5
+      }
+    },
+    {
+      "source": "H7",
+      "target": "S5",
+      "weight": 57.522,
+      "capacity": 100,
+      "ports": {
+        "H7": 1,
+        "S5": 4
+      }
+    },
+    {
+      "source": "H8",
+      "target": "S5",
+      "weight": 67.446,
+      "capacity": 100,
+      "ports": {
+        "H8": 1,
+        "S5": 5
+      }
+    },
+    {
+      "source": "S3",
+      "target": "H15",
+      "weight": 49.256,
+      "capacity": 100,
+      "ports": {
+        "S3": 3,
+        "H15": 1
+      }
+    },
+    {
+      "source": "H14",
+      "target": "S8",
+      "weight": 59.777,
+      "capacity": 100,
+      "ports": {
+        "H14": 1,
+        "S8": 4
+      }
+    },
+    {
+      "source": "H13",
+      "target": "S8",
+      "weight": 48.374,
+      "capacity": 100,
+      "ports": {
+        "H13": 1,
+        "S8": 5
+      }
+    },
+    {
+      "source": "H12",
+      "target": "S7",
+      "weight": 54.489,
+      "capacity": 100,
+      "ports": {
+        "H12": 1,
+        "S7": 4
+      }
+    },
+    {
+      "source": "H16",
+      "target": "S2",
+      "weight": 38.053,
+      "capacity": 100,
+      "ports": {
+        "H16": 1,
+        "S2": 4
+      }
+    }
+  ]
+}

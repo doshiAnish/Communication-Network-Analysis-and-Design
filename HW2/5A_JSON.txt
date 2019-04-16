@@ -1,0 +1,396 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "name": "",
+    "desc": ""
+  },
+  "nodes": [
+    {
+      "id": "S1",
+      "type": "switch",
+      "x": 293,
+      "y": 91
+    },
+    {
+      "id": "S2",
+      "type": "switch",
+      "x": 210,
+      "y": 35
+    },
+    {
+      "id": "S3",
+      "type": "switch",
+      "x": 517,
+      "y": 53
+    },
+    {
+      "id": "S4",
+      "type": "switch",
+      "x": 320,
+      "y": 52
+    },
+    {
+      "id": "S5",
+      "type": "switch",
+      "x": 597,
+      "y": 125
+    },
+    {
+      "id": "S6",
+      "type": "switch",
+      "x": 437,
+      "y": 115
+    },
+    {
+      "id": "H11",
+      "type": "host",
+      "x": 148,
+      "y": 11,
+      "vnid": "1"
+    },
+    {
+      "id": "H12",
+      "type": "host",
+      "x": 238,
+      "y": 207,
+      "vnid": "1"
+    },
+    {
+      "id": "H13",
+      "type": "host",
+      "x": 560,
+      "y": 26,
+      "vnid": "1"
+    },
+    {
+      "id": "H14",
+      "type": "host",
+      "x": 303,
+      "y": 0,
+      "vnid": "1"
+    },
+    {
+      "id": "H15",
+      "type": "host",
+      "x": 396,
+      "y": 147,
+      "vnid": "1"
+    },
+    {
+      "id": "H16",
+      "type": "host",
+      "x": 611,
+      "y": 172,
+      "vnid": "1"
+    },
+    {
+      "id": "H17",
+      "type": "host",
+      "x": 154,
+      "y": 97,
+      "vnid": "1"
+    },
+    {
+      "id": "H18",
+      "type": "host",
+      "x": 277,
+      "y": 199,
+      "vnid": "1"
+    },
+    {
+      "id": "H21",
+      "type": "host",
+      "x": 139,
+      "y": 51,
+      "vnid": "2"
+    },
+    {
+      "id": "H22",
+      "type": "host",
+      "x": 208,
+      "y": 124,
+      "vnid": "2"
+    },
+    {
+      "id": "H23",
+      "type": "host",
+      "x": 339,
+      "y": 9,
+      "vnid": "2"
+    },
+    {
+      "id": "H24",
+      "type": "host",
+      "x": 516,
+      "y": -2,
+      "vnid": "2"
+    },
+    {
+      "id": "H25",
+      "type": "host",
+      "x": 428,
+      "y": 181,
+      "vnid": "2"
+    },
+    {
+      "id": "H26",
+      "type": "host",
+      "x": 470,
+      "y": 168,
+      "vnid": "2"
+    },
+    {
+      "id": "H27",
+      "type": "host",
+      "x": 315,
+      "y": 165,
+      "vnid": "2"
+    },
+    {
+      "id": "H28",
+      "type": "host",
+      "x": 198,
+      "y": 176,
+      "vnid": "2"
+    },
+    {
+      "id": "H31",
+      "type": "host",
+      "x": 207,
+      "y": -2,
+      "vnid": "3"
+    },
+    {
+      "id": "H32",
+      "type": "host",
+      "x": 396,
+      "y": 11,
+      "vnid": "3"
+    },
+    {
+      "id": "H33",
+      "type": "host",
+      "x": 618,
+      "y": 75,
+      "vnid": "3"
+    },
+    {
+      "id": "H34",
+      "type": "host",
+      "x": 648,
+      "y": 98,
+      "vnid": "3"
+    },
+    {
+      "id": "H35",
+      "type": "host",
+      "x": 505,
+      "y": 140,
+      "vnid": "3"
+    },
+    {
+      "id": "H36",
+      "type": "host",
+      "x": 3938,
+      "y": 708,
+      "vnid": "3"
+    },
+    {
+      "id": "H37",
+      "type": "host",
+      "x": 658,
+      "y": 149,
+      "vnid": "3"
+    },
+    {
+      "id": "H38",
+      "type": "host",
+      "x": 470,
+      "y": 10,
+      "vnid": "3"
+    }
+  ],
+  "links": [
+    {
+      "source": "S1",
+      "target": "S3",
+      "weight": null,
+      "capacity": 30
+    },
+    {
+      "source": "S2",
+      "target": "S4",
+      "weight": null,
+      "capacity": 30
+    },
+    {
+      "source": "S4",
+      "target": "S1",
+      "weight": null,
+      "capacity": 30
+    },
+    {
+      "source": "S4",
+      "target": "S5",
+      "weight": null,
+      "capacity": 40
+    },
+    {
+      "source": "S1",
+      "target": "S2",
+      "weight": null,
+      "capacity": 40
+    },
+    {
+      "source": "S3",
+      "target": "S5",
+      "weight": null,
+      "capacity": 60
+    },
+    {
+      "source": "S3",
+      "target": "S6",
+      "weight": null,
+      "capacity": 10
+    },
+    {
+      "source": "H31",
+      "target": "S2",
+      "weight": null,
+      "capacity": 2
+    },
+    {
+      "source": "H11",
+      "target": "S2",
+      "weight": null,
+      "capacity": 3
+    },
+    {
+      "source": "S2",
+      "target": "H21",
+      "weight": null,
+      "capacity": 2
+    },
+    {
+      "source": "H17",
+      "target": "S2",
+      "weight": null,
+      "capacity": 3
+    },
+    {
+      "source": "H22",
+      "target": "S1",
+      "weight": null,
+      "capacity": 2
+    },
+    {
+      "source": "H28",
+      "target": "S1",
+      "weight": null,
+      "capacity": 2
+    },
+    {
+      "source": "H12",
+      "target": "S1",
+      "weight": null,
+      "capacity": 2
+    },
+    {
+      "source": "H18",
+      "target": "S1",
+      "weight": null,
+      "capacity": 2
+    },
+    {
+      "source": "H27",
+      "target": "S1",
+      "weight": null,
+      "capacity": 2
+    },
+    {
+      "source": "H15",
+      "target": "S6",
+      "weight": null,
+      "capacity": 2
+    },
+    {
+      "source": "H25",
+      "target": "S6",
+      "weight": null,
+      "capacity": 3
+    },
+    {
+      "source": "S6",
+      "target": "H26",
+      "weight": null,
+      "capacity": 2
+    },
+    {
+      "source": "H35",
+      "target": "S6",
+      "weight": null,
+      "capacity": 3
+    },
+    {
+      "source": "H33",
+      "target": "S5",
+      "weight": null,
+      "capacity": 2
+    },
+    {
+      "source": "H34",
+      "target": "S5",
+      "weight": null,
+      "capacity": 2
+    },
+    {
+      "source": "S5",
+      "target": "H37",
+      "weight": null,
+      "capacity": 3
+    },
+    {
+      "source": "S5",
+      "target": "H16",
+      "weight": null,
+      "capacity": 3
+    },
+    {
+      "source": "H38",
+      "target": "S3",
+      "weight": null,
+      "capacity": 3
+    },
+    {
+      "source": "H24",
+      "target": "S3",
+      "weight": null,
+      "capacity": 4
+    },
+    {
+      "source": "H13",
+      "target": "S3",
+      "weight": null,
+      "capacity": 3
+    },
+    {
+      "source": "H32",
+      "target": "S4",
+      "weight": null,
+      "capacity": 4
+    },
+    {
+      "source": "H23",
+      "target": "S4",
+      "weight": null,
+      "capacity": 3
+    },
+    {
+      "source": "H14",
+      "target": "S4",
+      "weight": null,
+      "capacity": 3
+    }
+  ]
+}

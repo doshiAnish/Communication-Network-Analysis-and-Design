@@ -1,0 +1,366 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "name": "",
+    "desc": ""
+  },
+  "nodes": [
+    {
+      "id": "AD1",
+      "type": "switch",
+      "x": 360,
+      "y": 124
+    },
+    {
+      "id": "AD2",
+      "type": "switch",
+      "x": 469,
+      "y": 62
+    },
+    {
+      "id": "AD3",
+      "type": "switch",
+      "x": 596,
+      "y": 57
+    },
+    {
+      "id": "AD4",
+      "type": "switch",
+      "x": 778,
+      "y": 58
+    },
+    {
+      "id": "AD5",
+      "type": "switch",
+      "x": 520,
+      "y": 164
+    },
+    {
+      "id": "AD6",
+      "type": "switch",
+      "x": 689,
+      "y": 149
+    },
+    {
+      "id": "AD7",
+      "type": "switch",
+      "x": 452,
+      "y": 240
+    },
+    {
+      "id": "AD8",
+      "type": "switch",
+      "x": 629,
+      "y": 288
+    },
+    {
+      "id": "AD9",
+      "type": "switch",
+      "x": 829,
+      "y": 236
+    },
+    {
+      "id": "AD10",
+      "type": "switch",
+      "x": 725,
+      "y": 238
+    },
+    {
+      "id": "AD11",
+      "type": "switch",
+      "x": 602,
+      "y": 189
+    },
+    {
+      "id": "AD12",
+      "type": "switch",
+      "x": 424,
+      "y": 153
+    },
+    {
+      "id": "AD13",
+      "type": "switch",
+      "x": 532,
+      "y": 286
+    },
+    {
+      "id": "AD14",
+      "type": "switch",
+      "x": 832,
+      "y": 125
+    },
+    {
+      "id": "AD15",
+      "type": "switch",
+      "x": 613,
+      "y": 106
+    },
+    {
+      "id": "AD16",
+      "type": "switch",
+      "x": 785,
+      "y": 185
+    },
+    {
+      "id": "AD17",
+      "type": "switch",
+      "x": 916,
+      "y": 171
+    }
+  ],
+  "links": [
+    {
+      "source": "AD1",
+      "target": "AD12",
+      "weight": 105.4,
+      "capacity": 62.183
+    },
+    {
+      "source": "AD2",
+      "target": "AD1",
+      "weight": 188.1,
+      "capacity": 169.67
+    },
+    {
+      "source": "AD2",
+      "target": "AD5",
+      "weight": 170.44,
+      "capacity": 143.27
+    },
+    {
+      "source": "AD5",
+      "target": "AD11",
+      "weight": 128.2,
+      "capacity": 116.5
+    },
+    {
+      "source": "AD11",
+      "target": "AD10",
+      "weight": 199.16,
+      "capacity": 64.663
+    },
+    {
+      "source": "AD10",
+      "target": "AD16",
+      "weight": 120.51,
+      "capacity": 107.44
+    },
+    {
+      "source": "AD16",
+      "target": "AD14",
+      "weight": 113.86,
+      "capacity": 104.47
+    },
+    {
+      "source": "AD14",
+      "target": "AD17",
+      "weight": 144.08,
+      "capacity": 196.81
+    },
+    {
+      "source": "AD17",
+      "target": "AD4",
+      "weight": 268.11,
+      "capacity": 163.13
+    },
+    {
+      "source": "AD4",
+      "target": "AD6",
+      "weight": 191.47,
+      "capacity": 83.83
+    },
+    {
+      "source": "AD6",
+      "target": "AD8",
+      "weight": 227.1,
+      "capacity": 13.866
+    },
+    {
+      "source": "AD8",
+      "target": "AD15",
+      "weight": 274.05,
+      "capacity": 60.912
+    },
+    {
+      "source": "AD15",
+      "target": "AD3",
+      "weight": 77.798,
+      "capacity": 181.5
+    },
+    {
+      "source": "AD3",
+      "target": "AD5",
+      "weight": 196.28,
+      "capacity": 159.65
+    },
+    {
+      "source": "AD5",
+      "target": "AD12",
+      "weight": 144.89,
+      "capacity": 149.18
+    },
+    {
+      "source": "AD12",
+      "target": "AD7",
+      "weight": 137.09,
+      "capacity": 126.25
+    },
+    {
+      "source": "AD7",
+      "target": "AD2",
+      "weight": 268.21,
+      "capacity": 29.497
+    },
+    {
+      "source": "AD2",
+      "target": "AD13",
+      "weight": 349.04,
+      "capacity": 19.815
+    },
+    {
+      "source": "AD13",
+      "target": "AD15",
+      "weight": 296.08,
+      "capacity": 17.076
+    },
+    {
+      "source": "AD15",
+      "target": "AD6",
+      "weight": 130.98,
+      "capacity": 111.87
+    },
+    {
+      "source": "AD6",
+      "target": "AD10",
+      "weight": 144.01,
+      "capacity": 13.971
+    },
+    {
+      "source": "AD10",
+      "target": "AD9",
+      "weight": 156.03,
+      "capacity": 187.27
+    },
+    {
+      "source": "AD4",
+      "target": "AD9",
+      "weight": 278.22,
+      "capacity": 171.44
+    },
+    {
+      "source": "AD9",
+      "target": "AD17",
+      "weight": 163.32,
+      "capacity": 185.47
+    },
+    {
+      "source": "AD17",
+      "target": "AD10",
+      "weight": 304.1,
+      "capacity": 42.522
+    },
+    {
+      "source": "AD10",
+      "target": "AD13",
+      "weight": 298.32,
+      "capacity": 7.3501
+    },
+    {
+      "source": "AD13",
+      "target": "AD12",
+      "weight": 256.99,
+      "capacity": 113.78
+    },
+    {
+      "source": "AD8",
+      "target": "AD5",
+      "weight": 248.16,
+      "capacity": 57.32
+    },
+    {
+      "source": "AD8",
+      "target": "AD4",
+      "weight": 411.65,
+      "capacity": 1.0054
+    },
+    {
+      "source": "AD9",
+      "target": "AD16",
+      "weight": 101.31,
+      "capacity": 52.444
+    },
+    {
+      "source": "AD16",
+      "target": "AD1",
+      "weight": 644.11,
+      "capacity": 12.323
+    },
+    {
+      "source": "AD2",
+      "target": "AD3",
+      "weight": 190.65,
+      "capacity": 86.219
+    },
+    {
+      "source": "AD3",
+      "target": "AD4",
+      "weight": 273.2,
+      "capacity": 123.28
+    },
+    {
+      "source": "AD3",
+      "target": "AD16",
+      "weight": 342.25,
+      "capacity": 100.17
+    },
+    {
+      "source": "AD8",
+      "target": "AD9",
+      "weight": 309.97,
+      "capacity": 75.977
+    },
+    {
+      "source": "AD9",
+      "target": "AD7",
+      "weight": 565.53,
+      "capacity": 84.055
+    },
+    {
+      "source": "AD13",
+      "target": "AD8",
+      "weight": 145.53,
+      "capacity": 12.672
+    },
+    {
+      "source": "AD13",
+      "target": "AD7",
+      "weight": 138.42,
+      "capacity": 43.606
+    },
+    {
+      "source": "AD5",
+      "target": "AD13",
+      "weight": 184.58,
+      "capacity": 45.23
+    },
+    {
+      "source": "AD13",
+      "target": "AD11",
+      "weight": 179.08,
+      "capacity": 171.66
+    },
+    {
+      "source": "AD11",
+      "target": "AD6",
+      "weight": 144.18,
+      "capacity": 82.309
+    },
+    {
+      "source": "AD15",
+      "target": "AD4",
+      "weight": 258.11,
+      "capacity": 113.96
+    }
+  ]
+}

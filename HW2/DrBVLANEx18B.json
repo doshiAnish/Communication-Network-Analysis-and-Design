@@ -1,0 +1,193 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "name": "DrBsSample",
+    "desc": "Dr. B's sample network for VLAN MSP assignment"
+  },
+  "nodes": [
+    {
+      "id": "H21",
+      "type": "host",
+      "x": 452,
+      "y": 50,
+      "vnid": "2"
+    },
+    {
+      "id": "H22",
+      "type": "host",
+      "x": 475,
+      "y": 5,
+      "vnid": "2"
+    },
+    {
+      "id": "H23",
+      "type": "host",
+      "x": 312,
+      "y": 90,
+      "vnid": "2"
+    },
+    {
+      "id": "H24",
+      "type": "host",
+      "x": 202,
+      "y": 120,
+      "vnid": "2"
+    },
+    {
+      "id": "H25",
+      "type": "host",
+      "x": 246,
+      "y": 210,
+      "vnid": "2"
+    },
+    {
+      "id": "H26",
+      "type": "host",
+      "x": 39,
+      "y": 243,
+      "vnid": "2"
+    },
+    {
+      "id": "H27",
+      "type": "host",
+      "x": 123,
+      "y": 223,
+      "vnid": "2"
+    },
+    {
+      "id": "H28",
+      "type": "host",
+      "x": 75,
+      "y": 311,
+      "vnid": "2"
+    },
+    {
+      "id": "S1",
+      "type": "switch",
+      "x": 79,
+      "y": 26,
+      "vnid": "2"
+    },
+    {
+      "id": "S2",
+      "type": "switch",
+      "x": 264,
+      "y": 109,
+      "vnid": "2"
+    },
+    {
+      "id": "S3",
+      "type": "switch",
+      "x": 421,
+      "y": 3,
+      "vnid": "2"
+    },
+    {
+      "id": "S4",
+      "type": "switch",
+      "x": 100,
+      "y": 268,
+      "vnid": "2"
+    },
+    {
+      "id": "S5",
+      "type": "switch",
+      "x": 394,
+      "y": 268,
+      "vnid": "2"
+    }
+  ],
+  "links": [
+    {
+      "source": "S1",
+      "target": "S2",
+      "weight": 202.13,
+      "capacity": 100
+    },
+    {
+      "source": "S1",
+      "target": "S4",
+      "weight": 243.04,
+      "capacity": 100
+    },
+    {
+      "source": "S2",
+      "target": "S4",
+      "weight": 228.29,
+      "capacity": 100
+    },
+    {
+      "source": "S4",
+      "target": "S5",
+      "weight": 293.63,
+      "capacity": 100
+    },
+    {
+      "source": "S3",
+      "target": "S5",
+      "weight": 266.45,
+      "capacity": 100
+    },
+    {
+      "source": "S3",
+      "target": "S2",
+      "weight": 189.73,
+      "capacity": 100
+    },
+    {
+      "source": "S3",
+      "target": "S1",
+      "weight": 342.82,
+      "capacity": 100
+    },
+    {
+      "source": "H23",
+      "target": "S2",
+      "weight": 51.767,
+      "capacity": 10
+    },
+    {
+      "source": "H27",
+      "target": "S4",
+      "weight": 50.485,
+      "capacity": 10
+    },
+    {
+      "source": "S4",
+      "target": "H26",
+      "weight": 66.371,
+      "capacity": 10
+    },
+    {
+      "source": "H28",
+      "target": "S4",
+      "weight": 49.815,
+      "capacity": 10
+    },
+    {
+      "source": "H24",
+      "target": "S2",
+      "weight": 62.562,
+      "capacity": 10
+    },
+    {
+      "source": "S2",
+      "target": "H25",
+      "weight": 102.89,
+      "capacity": 10
+    },
+    {
+      "source": "H21",
+      "target": "S3",
+      "weight": 56.19,
+      "capacity": 10
+    },
+    {
+      "source": "H22",
+      "target": "S3",
+      "weight": 53.838,
+      "capacity": 10
+    }
+  ]
+}
